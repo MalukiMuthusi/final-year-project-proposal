@@ -2,13 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{comment}
-\usepackage{biblatex}
-\usepackage{csquotes}
 \usepackage{graphicx}
 \graphicspath{ {.} }
-
-\addbibresource{refs.bib}
-
 
 
 \title{Project Proposal}
@@ -17,17 +12,22 @@
 
 
 \begin{document}
-
 \include{title_page.tex}
 
 %
 \section{Declaration}
+\input{declaration.tex}
+\newpage
 
 %
 \section{Acknowledgement}
+\input{acknowledgement.tex}
+\newpage
 
 %
 \section{Abstract}
+\input{abstract.tex}
+\newpage
 
 %%% Abstract should contain statements on the following :-
 %%%%% background, problem, objective, method, result, limitation, conclusion, value of study
@@ -42,42 +42,47 @@
 \section{List of Tables}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Chapters}
 
-\subsection{Introduction}
+\section{Introduction}
 \input{introduction.tex}
 
-\subsubsection{Background}
+\subsection{Background}
 \input{background.tex}
 
-\subsubsection{Problem Statement}
+\subsection{Problem Statement}
 \input{problem_statement.tex}
 
-\subsubsection{Objectives}
+\subsection{Objectives}
 \input{objectives.tex}
 
 
-\subsubsection{Justification}
+\subsection{Justification}
+\input{justification.tex}
 
-\subsubsection{Scope}
+\subsection{Scope}
+\input{scope.tex}
 
-\subsubsection{Constraints}
+\subsection{Project Constraints}
+\input{constraint.tex}
 
 
 %%
-\subsection{Literature Review}
+\section{Literature Review}
+
+\subsection{Related Work}
 
 %% 
-\subsection{Research and Methodology}
+\section{System Analysis And Design}
 
-%%
-\subsection{Results and Discussion}
+\subsection{System Development and Methodology}
 
-%%
-\subsection{Conclusion and Recommendations}
+\section{Schedule}
 
 %
-\printbibliography
 
 \section{Appendices}
+
+\bibliographystyle{plain}
+\bibliography{main}
+
 \end{document}
