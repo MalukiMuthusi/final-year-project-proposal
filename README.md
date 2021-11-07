@@ -37,3 +37,7 @@ Project proposal for the final year as required to attain a BSC(Computer Science
 [SEGA launches new 'Crazy Taxi Gazillionaire' strategy game](https://androidcommunity.com/sega-launches-new-crazy-taxi-gazillionaire-strategy-game-20170602/)
 
 [https://greenrideboulder.com/](https://greenrideboulder.com/)
+
+[SWVL Kenya](https://techtrendske.co.ke/swvl-launches-long-distance-travel-service-in-kenya/)
+
+[Long Distance SWVL services](https://www.capitalfm.co.ke/business/2020/11/swvl-kenya-introduces-new-long-distance-travel-service/)
