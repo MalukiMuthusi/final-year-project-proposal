@@ -4,6 +4,7 @@
 \usepackage[square,sort,comma,numbers]{natbib}
 \usepackage{comment}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \graphicspath{ {.} }
 
 
@@ -13,19 +14,21 @@
 
 
 \begin{document}
+
+% Title page
 \include{title_page.tex}
 
-%
+% Declaration
 \section{Declaration}
 \input{declaration.tex}
 \newpage
 
-%
+% Acknowledgement
 \section{Acknowledgement}
 \input{acknowledgement.tex}
 \newpage
 
-%
+% Abstract
 \section{Abstract}
 \input{abstract.tex}
 \newpage
@@ -33,57 +36,63 @@
 %%% Abstract should contain statements on the following :-
 %%%%% background, problem, objective, method, result, limitation, conclusion, value of study
 
-%
-\section{Table of Contents}
+% Table of Contents
+% \input{toc.tex}
 
-%
-\section{List of Figures}
+% List of figures
+% \section{List of Figures}
 
-%
-\section{List of Tables}
+% List of tables
+% \section{List of Tables}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Introduction
 \section{Introduction}
 \input{introduction.tex}
 
+% Background
 \subsection{Background}
 \input{background.tex}
 
+% Problem Statement
 \subsection{Problem Statement}
 \input{problem_statement.tex}
 
+% Objectives
 \subsection{Objectives}
 \input{objectives.tex}
 
-
+% Justification
 \subsection{Justification}
 \input{justification.tex}
 
-\subsection{Scope}
+% Scope
 \input{scope.tex}
 
+% Project Constraints
 \subsection{Project Constraints}
 \input{constraint.tex}
 
 
-%%
+%Literature Review
 \section{Literature Review}
 
+% Related Work
 \subsection{Related Work}
 
-%% 
+% System Analysis and Design
 \section{System Analysis And Design}
 
-\subsection{System Development and Methodology}
+% System Development and Methodology
+\input{development.tex}
 
-\section{Schedule}
 
-%
+% Schedule
+\input{schedule.tex}
 
-\section{Appendices}
-
-\bibliographystyle{apacite}
+% Bibliography
+\bibliographystyle{plainnat}
 \bibliography{main}
 
 \end{document}

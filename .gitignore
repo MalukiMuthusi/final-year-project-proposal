@@ -7,3 +7,7 @@ main.dvi
 title_page.aux
 main.log
 main.blg
+gantt chart.pdf
+main.fdb_latexmk
+main.fls
+main.out
