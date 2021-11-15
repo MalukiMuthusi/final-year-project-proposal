@@ -41,3 +41,5 @@ Project proposal for the final year as required to attain a BSC(Computer Science
 [SWVL Kenya](https://techtrendske.co.ke/swvl-launches-long-distance-travel-service-in-kenya/)
 
 [Long Distance SWVL services](https://www.capitalfm.co.ke/business/2020/11/swvl-kenya-introduces-new-long-distance-travel-service/)
+
+[Bus Ticketing Website](https://beta.buupass.com/)
