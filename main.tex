@@ -1,7 +1,7 @@
 \documentclass{report}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{natbib}
 \usepackage{comment}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -37,52 +37,53 @@
 %%%%% background, problem, objective, method, result, limitation, conclusion, value of study
 
 % Table of Contents
-% \input{toc.tex}
+\input{toc.tex}
 
 % List of figures
-% \section{List of Figures}
+\section{List of Figures}
 
 % List of tables
-% \section{List of Tables}
+\section{List of Tables}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Introduction
-\section{Introduction}
+\chapter{Introduction}
 \input{introduction.tex}
 
 % Background
-\subsection{Background}
+\section{Background}
 \input{background.tex}
 
 % Problem Statement
-\subsection{Problem Statement}
+\section{Problem Statement}
 \input{problem_statement.tex}
 
 % Objectives
-\subsection{Objectives}
+\section{Objectives}
 \input{objectives.tex}
 
 % Justification
-\subsection{Justification}
+\section{Justification}
 \input{justification.tex}
 
 % Scope
 \input{scope.tex}
 
 % Project Constraints
-\subsection{Project Constraints}
+\section{Project Constraints}
 \input{constraint.tex}
 
 
 %Literature Review
-\section{Literature Review}
+\chapter{Literature Review}
 
 % Related Work
-\subsection{Related Work}
+\section{Related Work}
+\input{relatedwork.tex}
 
 % System Analysis and Design
-\section{System Analysis And Design}
+\chapter{System Analysis And Design}
 
 % System Development and Methodology
 \input{development.tex}
@@ -92,7 +93,9 @@
 \input{schedule.tex}
 
 % Bibliography
-\bibliographystyle{plainnat}
+\nocite{businessInsider}
+\nocite{carpoolworld}
+\bibliographystyle{agsm}
 \bibliography{main}
 
 \end{document}
