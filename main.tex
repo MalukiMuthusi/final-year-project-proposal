@@ -5,6 +5,7 @@
 \usepackage{comment}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage[nottoc,numbib]{tocbibind}
 \hypersetup{
     colorlinks=false, %set true if you want colored links
     linktoc=all,     %set to all if you want both sections and subsections linked
@@ -99,6 +100,7 @@
 \input{modules.tex}
 
 \section{Technology}
+\input{technology.tex}
 
 
 
@@ -106,10 +108,8 @@
 \input{schedule.tex}
 
 % Bibliography
-\nocite{businessInsider}
-\nocite{carpoolworld}
+\nocite{*}
 
-\chapter{References}
 \bibliographystyle{agsm}
 \bibliography{main}
 
